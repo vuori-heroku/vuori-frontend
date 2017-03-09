@@ -1,0 +1,74 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  background-image:url("../TESI4254.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: .95;
+}
+.Search {
+  margin: 0 auto;
+  text-align: center;
+  padding:10px;
+  z-index: 10;
+  background-color:white;
+}
+#a {
+  display:inherit;
+}
+.SQLsearch {
+    float:right;
+}
+#pageheader {
+  font-family: verdana, sans-serif;
+  color:black;
+  font-size:36px;
+  text-align: center;
+  z-index: 10;
+  background-color: white;
+
+}
+#pageheader small {
+    font-family: verdana, sans-serif;
+    color:orange;
+    font-size: 24px;
+}
+.SQLbuild {
+  float:left;
+}
+#customInput {
+  width:25em;
+}
+.dateRange {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+#download {
+  float:right;
+}
+
+#endDate {
+  margin-left:1.5em;
+}
+#logoutButton {
+  float:right;
+}
+#b {
+  width: 80%;
+  margin: 0 auto;
+  padding: 18%;
+}
+#b input {
+  height:2.5em;
+  font-size:20px;
+}
+#b button {
+  height:2.5em;
+  font-size:20px;
+}
